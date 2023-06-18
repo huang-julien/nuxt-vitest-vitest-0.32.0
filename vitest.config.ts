@@ -19,9 +19,6 @@ export default defineVitestConfig({
     },
     // setupFiles: ['./vitest.setup.ts']
   },
-  define: {
-    'process.env.test': 'true',
-  },
   plugins: [],
   root,
 });

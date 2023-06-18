@@ -1,7 +1,6 @@
 <template>
   <div>
-    {{ $t('hello') }}
-    route full path : {{ $route.fullPath }}
+    {{ $t('hello') }} 
     <NuxtPage />
   </div>
 </template>
